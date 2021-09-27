@@ -79,9 +79,10 @@ guiTypes = {
 				position = { x = 152 y = 168 }
 				size = { width = 480 height = 90%% }
 				format = "UPPER_LEFT"
-				slotsize = { width = 55 height = 46 }
-				max_slots_horizontal = 5 # 5
-				max_slots_vertical = 10
+				# slotsize = { width = 55 height = 46 }
+				slotsize = { width = 27 height = 23 }
+				max_slots_horizontal = 10 # 5
+				max_slots_vertical = 20
 			}
 
 			iconType ={
@@ -489,12 +490,14 @@ guiTypes = {
 			position = { x=0 y=0 }	
 			spriteType = "GFX_build_slot_bg"
 			alwaystransparent = yes
+			scale = 0.5
 		}
 		
 		buttonType = {
 			name = "building_picture"
 			position = { x = 10 y = 0 }
 			quadTextureSprite = "GFX_buildings_strip"
+			scale = 0.5
 		}
 		
 		iconType = {
@@ -502,6 +505,7 @@ guiTypes = {
 			position = { x = 10 y = 0 }
 			quadTextureSprite = "GFX_building_status_overlay"
 			alwaystransparent = yes
+			scale = 0.5
 		}
 		
 		buttonType = {
